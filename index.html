@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    .flag{
+      height: 300px;
+      width: 500px;
+      background-color: green;
+      margin-left: 500px;
+      margin-top: 200px;
+      border: 2px solid black;
+    }
+    .flag > .orange{
+      background-color: orange;
+      height: 100px;
+      width: 500px;
+    }
+    .flag>.white{
+      background-color: white;
+      height: 100px;
+      width: 500px;
+    }
+    .flag>.white .chak{
+      background-color: black;
+      height: 100px;
+      width: 150px;
+      position: absolute;
+      left: 50%;
+      border-radius: 200%;
+    }
+    .flag>.white .chak .dot{
+      background-color: white;
+      height: 50%;
+      width:1px;
+      position: absolute;
+      left: 50%;
+      right: 50%;
+      top: 50%;
+      bottom: 50%;
+    }
+    .flag>.white .chak .dot2{
+      background-color: white;
+      height: 50%;
+      width:1px;
+      position: absolute;
+      left: 50%;
+      right: 50%;
+      bottom: 50%;
+    }
+    .flag>.white .chak .dot3{
+      background-color: white;
+      height: 1px;
+      width:50%;
+      position: absolute;
+      left: 50%;
+      right: 50%;
+      bottom: 50%;
+    }
+    .flag>.white .chak .dot4{
+      background-color: white;
+      height: 1px;
+      width:50%;
+      position: absolute;
+      right: 50%;
+      bottom: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="flag">
+    <div class="orange">
+    </div>
+    <div class="white">
+      <div class="chak">
+        <div class="dot"></div>
+        <div class="dot2"></div>
+        <div class="dot3"></div>
+        <div class="dot4"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
